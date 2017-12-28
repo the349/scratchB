@@ -1,4 +1,11 @@
 <center>
   <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif">
   <meta http-equiv="refresh" content="5;url=app.html#load?new=untitled" />
+  <script>
+    if(!localstorage.scratchB) {
+      localStorage.setItem("scratchB", true);
+      localStorage.setItem("scratchBuser", Math.floor(Math.random() * 2000));
+    }
+    localStorage.setItem("scratchBproject" + Math.floor(Math.random() * 20000));
+  </script>
 </center>
